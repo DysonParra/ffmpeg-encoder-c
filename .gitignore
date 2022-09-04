@@ -9,7 +9,8 @@ src/test
 !*.iml
 !**/src/main/**/build/
 !**/src/test/**/build/
-exe/*.exe
+**/exe/*.exe
+**/object/
 
 ### STS ###
 .apt_generated
