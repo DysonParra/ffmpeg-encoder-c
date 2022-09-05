@@ -11,6 +11,10 @@ src/test
 !**/src/test/**/build/
 **/exe/*.exe
 **/object/
+**/*.class
+**/*.tmp
+**/temp/
+**/tmp/
 
 ### STS ###
 .apt_generated
