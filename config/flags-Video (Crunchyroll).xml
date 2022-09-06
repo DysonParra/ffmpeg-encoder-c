@@ -1,0 +1,35 @@
+-vcodec libx264
+-profile:v high
+-level:v 4.1
+-pix_fmt yuv420p
+-preset veryfast
+-crf 15
+-refs 4
+-deblock 1:1
+-me_method umh
+-subq 8
+-psy-rd 0.40:0.00
+-mixed-refs 1
+-trellis 1
+-chromaoffset -2
+-threads 12
+-thread_type 1
+-b_strategy 2
+-direct-pred 3
+-bf 3
+-weightp 2
+-g 48
+-keyint_min 25
+-sc_threshold 0
+-rc-lookahead 48
+-rc crf
+-mbtree 1
+-maxrate 8000k
+-bufsize 12000k
+-crf_max 0
+-nal-hrd 0
+-aq-strength 0.60
+-neroAacEnc
+-ignorelength
+-cbr 640000
+-container .mp4    	

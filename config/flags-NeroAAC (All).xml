@@ -1,0 +1,9 @@
+-ignorelength
+-cbr 640000	
+-q
+-br
+-2pass
+-2passperiod
+-lc
+-he
+-hev2

@@ -1,0 +1,52 @@
+--no-chroma-me
+--cqm
+--deadzone-inter		
+--deadzone-intra
+--no-dct-decimate
+--interlaced
+-constrained-intra 0
+
+-coder 1
+-refs 4
+-deblock -2:-2
+-partitions all
+-me_method umh
+-subq 9
+-psy 1
+-psy-rd 0.70:0.00
+-mixed-refs 0
+-me_range 32
+-cmp chroma
+-trellis 2
+-8x8dct 1
+
+-fast-pskip 1
+-chromaoffset -2
+-threads 8
+
+-nr 0
+
+-bluray-compat 0
+
+-bf 9
+-b-pyramid 2
+-b_strategy 2
+-b-bias 0
+-direct-pred 3
+-weightb 1
+-flags cgop
+-weightp 2
+-g 250
+-keyint_min 23
+-sc_threshold 40
+-intra-refresh 0
+-rc-lookahead 40
+-rc crf
+-mbtree 1
+-crf 16
+-qcomp 0.70
+-qmin 10
+-qmax 20
+-qdiff 4
+-i_qfactor 0.71
+-aq-strength 0.60

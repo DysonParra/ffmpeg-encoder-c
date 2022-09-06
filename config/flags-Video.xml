@@ -1,0 +1,12 @@
+-vcodec libx264
+-profile:v high
+-level:v 4.1
+-pix_fmt yuv420p
+-preset veryfast
+-crf 16
+-refs 4
+-weightp 2
+-rc-lookahead 40
+-qmin 10
+-qmax 30
+-container .mp4    	

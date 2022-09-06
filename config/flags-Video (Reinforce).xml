@@ -1,0 +1,27 @@
+-vcodec libx264
+-profile:v high
+-level:v 4.1
+-pix_fmt yuv420p
+-preset veryfast
+-crf 16
+-refs 4
+-deblock -2:-2
+-me_method umh
+-subq 9
+-psy-rd 0.70:0.00
+-me_range 32
+-trellis 2
+-chromaoffset -2
+-threads 8
+-bf 9
+-b_strategy 2
+-direct-pred 3
+-weightp 2
+-rc-lookahead 40
+-qcomp 0.70
+-qmin 10
+-qmax 20
+-neroAacEnc
+-ignorelength
+-cbr 640000
+-container .mp4    	

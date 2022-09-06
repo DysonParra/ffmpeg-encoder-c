@@ -1,0 +1,64 @@
+Encodes:
+
+Input file:        video 01.mkv
+Output file:       video 01 (Convert aud-vid).mp4
+Input size:        3.32 MB
+Output size:       3.17 MB
+Percent output:    95.38%
+NeroAAC command:   start "ffmpeg" /High /B /WAIT "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\ffmpeg" -i "video 01.mkv" -ar 48000 -ac 2 -f wav - | "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\neroAacEnc"  -ignorelength -cbr 640000 -if - -of "audio.m4a"
+Subtitles:         video 01_spanish.str
+FFmpeg command:    start "ffmpeg" /High /B /WAIT "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\ffmpeg" -i "video 01.mkv" -i "audio.m4a" -map 0:0 -map 1:0  -c:a copy -strict -2 -vf "subtitles='video 01_spanish.str'"  -vcodec libx264 -profile:v high -level:v 4.1 -pix_fmt yuv420p -preset veryfast -crf 16 -refs 4 -weightp 2 -rc-lookahead 40 -qmin 10 -qmax 30  "video 01 (Convert aud-vid).mp4"  > NUL
+Date:              09/01/2020
+Start time:        17:49:04
+End time:          17:49:08
+Time Elapsed:      00:00:04
+
+Input file:        video 02.mp4
+Output file:       video 02 (Convert aud-vid).mp4
+Input size:        3.23 MB
+Output size:       3.03 MB
+Percent output:    93.90%
+NeroAAC command:   start "ffmpeg" /High /B /WAIT "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\ffmpeg" -i "video 02.mp4" -ar 48000 -ac 2 -f wav - | "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\neroAacEnc"  -ignorelength -cbr 640000 -if - -of "audio.m4a"
+FFmpeg command:    start "ffmpeg" /High /B /WAIT "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\ffmpeg" -i "video 02.mp4" -i "audio.m4a" -map 0:0 -map 1:0  -c:a copy -strict -2  -vcodec libx264 -profile:v high -level:v 4.1 -pix_fmt yuv420p -preset veryfast -crf 16 -refs 4 -weightp 2 -rc-lookahead 40 -qmin 10 -qmax 30  "video 02 (Convert aud-vid).mp4"  > NUL
+Date:              09/01/2020
+Start time:        17:49:08
+End time:          17:49:13
+Time Elapsed:      00:00:05
+
+Input file:        video 03.ts
+Output file:       video 03 (Convert aud-vid).mp4
+Input size:        3.51 MB
+Output size:       3.17 MB
+Percent output:    90.35%
+NeroAAC command:   start "ffmpeg" /High /B /WAIT "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\ffmpeg" -i "video 03.ts" -ar 48000 -ac 2 -f wav - | "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\neroAacEnc"  -ignorelength -cbr 640000 -if - -of "audio.m4a"
+Subtitles:         video 03.ass
+FFmpeg command:    start "ffmpeg" /High /B /WAIT "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\ffmpeg" -i "video 03.ts" -i "audio.m4a" -map 0:0 -map 1:0  -c:a copy -strict -2 -vf "subtitles='video 03.ass'"  -vcodec libx264 -profile:v high -level:v 4.1 -pix_fmt yuv420p -preset veryfast -crf 16 -refs 4 -weightp 2 -rc-lookahead 40 -qmin 10 -qmax 30  "video 03 (Convert aud-vid).mp4"  > NUL
+Date:              09/01/2020
+Start time:        17:49:13
+End time:          17:49:17
+Time Elapsed:      00:00:04
+
+Input file:        video 04.m2ts
+Output file:       video 04 (Convert aud-vid).mp4
+Input size:        3.58 MB
+Output size:       3.03 MB
+Percent output:    84.73%
+NeroAAC command:   start "ffmpeg" /High /B /WAIT "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\ffmpeg" -i "video 04.m2ts" -ar 48000 -ac 2 -f wav - | "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\neroAacEnc"  -ignorelength -cbr 640000 -if - -of "audio.m4a"
+FFmpeg command:    start "ffmpeg" /High /B /WAIT "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\ffmpeg" -i "video 04.m2ts" -i "audio.m4a" -map 0:0 -map 1:0  -c:a copy -strict -2  -vcodec libx264 -profile:v high -level:v 4.1 -pix_fmt yuv420p -preset veryfast -crf 16 -refs 4 -weightp 2 -rc-lookahead 40 -qmin 10 -qmax 30  "video 04 (Convert aud-vid).mp4"  > NUL
+Date:              09/01/2020
+Start time:        17:49:17
+End time:          17:49:22
+Time Elapsed:      00:00:05
+
+Input file:        video 05.avi
+Output file:       video 05 (Convert aud-vid).mp4
+Input size:        13.63 MB
+Output size:       3.09 MB
+Percent output:    22.71%
+NeroAAC command:   start "ffmpeg" /High /B /WAIT "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\ffmpeg" -i "video 05.avi" -ar 48000 -ac 2 -f wav - | "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\neroAacEnc"  -ignorelength -cbr 640000 -if - -of "audio.m4a"
+Subtitles:         video 05.str
+FFmpeg command:    start "ffmpeg" /High /B /WAIT "C:\Users\Linux\Desktop\C projects\Ffmpeg Encoder\Utilies\ffmpeg" -i "video 05.avi" -i "audio.m4a" -map 0:0 -map 1:0  -c:a copy -strict -2 -vf "subtitles='video 05.str'"  -vcodec libx264 -profile:v high -level:v 4.1 -pix_fmt yuv420p -preset veryfast -crf 16 -refs 4 -weightp 2 -rc-lookahead 40 -qmin 10 -qmax 30  "video 05 (Convert aud-vid).mp4"  > NUL
+Date:              09/01/2020
+Start time:        17:49:22
+End time:          17:49:26
+Time Elapsed:      00:00:04
