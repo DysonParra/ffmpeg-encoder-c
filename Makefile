@@ -26,7 +26,8 @@ getLibIncludes = $(foreach var,$1,$(shell [ -f $(var)$2 ] && echo $(var)$2 || ec
 getUpperCase = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
 getStaticDefinitions = $(call getUpperCase, $(subst $(sLibFormat),$(staticSufix),$(addprefix -D ,$1)))
 prefferDynamic=1
-appName = tester
+#appName = nero_encoder
+appName = ffmpeg_encoder
 
 # Clean all objects.
 cleanObjs:
@@ -143,7 +144,6 @@ appR:
 # Make all the targets.
 all:
 	make clean
-	make dLib
 	make app
 	./$(appName)
 
