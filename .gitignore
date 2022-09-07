@@ -28,6 +28,9 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+### Python ###
+**/__pycache__/
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
