@@ -162,7 +162,7 @@ static void convertVideos(MessageList* paths, int selectOption, int useNeroAAC, 
 
     FileItem* vid = videos->first;                                                          // Crea FileItem vid con el primer FileItem de la lista de videos.
     FileItem* subs = NULL;                                                                  // Crea FileItem subs para recorrer la lista de subtitulos.
-    char outputName[256] = "";                                                              // Variable que tendrá el nombre de salida de cada archivo de video.
+    char outputName[1024] = "";                                                             // Variable que tendrá el nombre de salida de cada archivo de video.
 
     time_t start, end;                                                                      // Crea indicadores de tiempo.
     char buf[5000] = "";                                                                    // Crea array para almacenar el comando de conversión o remux de cada video.

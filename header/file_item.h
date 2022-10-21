@@ -40,7 +40,7 @@ LANGUAGE DLLIMPORT CALLING double getFileSize(char* fileName, int divisions);
 
 struct FileItem {
     /* Es el nombre del {FileItem} */
-    char name[500];
+    char name[1024];
     /* Es el siguiente {FileItem} */
     FileItem* next;
 };
