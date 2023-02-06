@@ -54,3 +54,7 @@ out/
 /node_modules
 /.pnp
 .pnp.js
+
+# .Net
+bin/
+obj/
