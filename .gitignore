@@ -58,3 +58,4 @@ out/
 # .Net
 bin/
 obj/
+.vs
