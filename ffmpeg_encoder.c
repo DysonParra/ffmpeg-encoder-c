@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {FileName} se encarga de realizar tareas específicas.
+ * @fileoverview    {FileName}
  *
  * @version         2.0
  *
