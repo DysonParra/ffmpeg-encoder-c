@@ -96,7 +96,7 @@ int main(int argc, char** argv) {
 }
 
 /**
- * FIXME: Definición de {@code convertVideos}.
+ * FIXME: Description of {@code convertVideos}.
  * Convierte los videos.
  */
 static void convertVideos(MessageList* paths, int selectOption, int useNeroAAC, FileList* videos, FileList* subtitles) {
@@ -271,7 +271,7 @@ static void convertVideos(MessageList* paths, int selectOption, int useNeroAAC, 
 }
 
 /**
- * FIXME: Definición de {@code makeLog}.
+ * FIXME: Description of {@code makeLog}.
  * Agrega información al archivo de log indicado por logFileName.
  */
 static void makeLog(time_t start, time_t end, char* logFileName, char* inputFile, char* outputFile, char* ffmpeg, char* aac, char* subtitles) {

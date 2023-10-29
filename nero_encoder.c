@@ -74,7 +74,7 @@ int main(int argc, char** argv) {
 }
 
 /**
- * TODO: Definición de {@code makeBat}.
+ * TODO: Description of {@code makeBat}.
  */
 static void makeBat(MessageList* paths, int selectOption) {
     FILE* flags = NULL;                                                         // crea apuntador a archivo para abrir el archivo de flags.
@@ -172,7 +172,7 @@ static void makeBat(MessageList* paths, int selectOption) {
 }
 
 /**
- * FIXME: Definición de {@code isVideoFile}.
+ * FIXME: Description of {@code isVideoFile}.
  * Verifica si un archivo es un video.
  */
 static char isVideoFile(char* file) {
@@ -189,7 +189,7 @@ static char isVideoFile(char* file) {
 }
 
 /**
- * FIXME: Definición de {@code isAudioFile}.
+ * FIXME: Description of {@code isAudioFile}.
  * Verifica si un archivo es un audio.
  */
 static char isAudioFile(char* file) {
